@@ -1,2 +1,6 @@
 .idea
 .DS_Store
+.vscode
+cmake-build-debug
+build
+main.dSYM
