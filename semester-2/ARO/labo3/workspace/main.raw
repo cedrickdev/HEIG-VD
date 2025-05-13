@@ -1,0 +1,8 @@
+v2.0 raw
+ #Fichier genere automatiquement a partir
+ #d'un fichier de type .hex compile pour cible
+ #ARM en Thumb code.
+ #Ce fichier peut etre importe
+ #directement dans la RAM d'instruction du processeur
+ #ARO2 dans logisim.
+2105 18d0 2101 2203 2304 1850 4003     
