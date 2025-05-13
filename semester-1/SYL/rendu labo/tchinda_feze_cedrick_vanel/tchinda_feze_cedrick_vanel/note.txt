@@ -1,0 +1,35 @@
+Etudiants :
+Tchinda Feze Cedrick Vanel
+Berney Dylan
+
+
+Conception du circuit            :   2.5 / 2.5
+......Registre à décalage 8 bits :     1 / 1.       Poids : 2.0
+......Timer 28 bits              :     1 / 1.       Poids : 2.0
+......Contrôle Chenillard_TOP    :     1 / 1.       Poids : 3.0
+......Validation sur carte       :     1 / 1.       Poids : 2.0
+
+Questions théoriques             :  2.02 / 2.5
+......Question 1                 :  0.75 / 1.       Poids : 0.5
+......Question 2                 :     1 / 1.       Poids : 2.0
+......Questions 3 + 4            :     1 / 1.       Poids : 2.0
+......Questions 5 + 6            :   0.5 / 1.       Poids : 1.0
+......Questions 7 + 8 + 9        :   0.7 / 1.       Poids : 3.0
+......Question 10                :  0.75 / 1.       Poids : 2.0
+
+Bonus / Malus                    :   0.0 / 5.0
+
+
+Note finale                      : 5.5
+
+
+Remarque assistant: 
+Q2: L'ordre des signaux dans le chronogramme ne va pas, on met toujours clock => entrées => sorties (points enlevés sur Q1 pour ne pas trop pénaliser). 
+
+Q3: Cela marche aussi avec un compteur de manière toute aussi précise, l'avantage est principalement la comparaison avec 0 qui est plus simple. Mais OK. 
+
+Q6: L'utilisation de la bascule RS permet surtout de mémoriser une pression courte sur pulse_load_i jusqu'au prochain décallage.
+
+Q7: Les signaux en_i et timer_done sont liés et fonctionnent ensemble. L'utilisation de seulement l'un ou l'autre ne suffit pas. 
+
+Q10: Pulse_load_i est à utiliser comme un bouton poussoire, quand nous disons "appuyez", cela sous-entend une pression courte (moins d'un coup de clock).
