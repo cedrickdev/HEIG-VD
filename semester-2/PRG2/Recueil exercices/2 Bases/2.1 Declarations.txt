@@ -1,0 +1,21 @@
+1 Une variable permettant de stocker un octet non signé
+
+2 Un type représentant un entier 32-bit signé
+
+3 Déclarez dans la fonction principale d'un programme C les variables nécessaires pour représenter les informations suivantes :
+
+L'âge d'une personne. La température actuelle en degrés Celsius. Le salaire mensuel d'un employé.
+La première lettre du prénom d'une personne. Le nombre d'étudiants dans une classe.
+
+
+
+ 1 - unsigned char c;
+
+ 2- typedef int signed_int;
+
+ 3-
+ int Age;
+ double Temp;
+ int salary;
+ char firstInitial;
+ int numberOfStudents;

@@ -1,0 +1,11 @@
+1 Qu'est-ce une chaîne d'outil (ou toolchain) ?
+2 Quel est le rôle du compilateur C (détaillez)
+3 Quel est le premier argument reçu dans la fonction main() ?
+
+
+1- Un toolchain c'est un ensemble d'outils logiciels utilisés pour developper un programme pour la compilation ou
+la génération du fichier éxécutable
+
+2- le role principale d'un compilateur c est de convertir le programme ecrit en un langage machine a l'aide des assembleurs
+
+3- le nom du programme
